@@ -1,0 +1,7 @@
+entity Word {
+    word String required,
+    translation String required,
+    example String,
+    partOfSpeech String,
+    createdAt Date
+}
